@@ -8,7 +8,7 @@ processor = OwlViTProcessor.from_pretrained("google/owlvit-base-patch32")
 model = OwlViTForObjectDetection.from_pretrained("google/owlvit-base-patch32")
 
 # Provide the path to your local image
-image_path = r"C:/Users/A549773/ML-examples-RD/TRUSTY/OWL-ViT/source/field.jpg"
+image_path = "field.jpg"
 image = Image.open(image_path)
 
 # Define the text queries
