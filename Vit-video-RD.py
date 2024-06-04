@@ -21,7 +21,7 @@ label_colors = {
 }
 
 # Open the video file
-video_path = r"C:/Users/A549773/ML-examples-RD/TRUSTY/OWL-ViT/source/baba-ethan.mp4"
+video_path = "video.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Check if the video was opened successfully
